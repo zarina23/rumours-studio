@@ -1,0 +1,264 @@
+.body {
+    background-color: #0A2647;  /*  #0F3057 */
+}
+
+.menu_parent {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6867AC;
+    /* 8675A9 */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu_item {
+    padding: 7px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.first {
+    margin-right: auto;
+}
+
+#rumours_video {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.overview_parent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.overview_text {
+    color: #c7bfcc;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    align-self: center;
+    padding: 100px;
+}
+
+.contacts_header {
+    color: #c7bfcc;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.contacts_parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.contacts_text {
+    color: #c7bfcc;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp {
+    color: #c7bfcc;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.address {
+    text-decoration: none;
+}
+
+.icons_parent {
+    display: flex;
+}
+
+.whatsapp_icon {
+    margin-left: 5px;
+}
+
+hr {
+    color: black;
+}
+
+.button_parent {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main_button {
+    padding: 15px;
+    background: none;
+    border: 3px solid #c7bfcc;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.main_button:hover {
+    border-color: #6867AC;
+    color: #6867AC;
+}
+
+.button_text {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c7bfcc;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    transition: 0.5s ease-out;
+}
+
+.button_text:hover {
+    color: #6867AC;
+}
+
+
+/* Responsive Design */
+
+@media all and (max-width: 1024px) {
+
+    /* Check Surface Pro 7 and iPad Pro */
+    .menu_item {
+        padding: 5px;
+    }
+
+    .overview_parent {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .overview_text {
+        padding: 30px;
+    }
+
+                .overview_parent {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+    .overview_photo {
+        width: 350px;
+    }
+
+        .reverse {
+            flex-direction: column-reverse;
+            margin-top: 0;
+        }
+
+    .contacts_parent {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+
+    .contacts_text {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .button_parent {
+        padding: 15px;
+    }
+
+    .main_button {
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 540px) {
+
+        /* Check Surface Duo */
+    .contacts_parent {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+
+    }
+
+    .overview_parent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .overview_photo {
+        width: 250px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .overview_text {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .button_parent {
+        padding: 10px;
+    }
+
+    .main_button {
+        padding: 5px;
+    }
+
+    .button_text {
+        font-size: 10px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+
+    .contacts_text {
+        font-size: 12px;
+    }
+
+    .first {
+        align-self: center;
+    }
+
+}
+
+
+
+/* Bootstrap */
+
+@media screen and (min-width:992px) {
+    .nav-item {
+        line-height: 40px;
+    }
+}
+
+.text_color {
+    color: #c7bfcc;
+}
+
+.hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
